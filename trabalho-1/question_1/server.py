@@ -18,7 +18,7 @@ options = {
       "options": {
         "1": "- Use máscara \n- Lave suas mãos \n- Mantenha uma distância segura",
         "2": "- Febre \n- Tosse seca \n- Cansaço",
-        "3": "- Dores e desconfortos \n- Dor de garganta \n- Dor de cabeça \n Perda de paladar ou olfato",
+        "3": "- Dores e desconfortos \n- Dor de garganta \n- Dor de cabeça \n- Perda de paladar ou olfato",
       }
     }
   }
