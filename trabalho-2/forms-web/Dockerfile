@@ -1,9 +1,15 @@
-FROM node:10-alpine
+FROM node:13-alpine
 
 WORKDIR /app
 
-COPY *
-
+ENV PATH /app/node_modules/.bin:$PATH
+COPY package.json /app/package.json
 RUN yarn install
 
-CMD ["yarn" "start"]
+COPY . /app
+RUN yarn run build
+
+COPY build /app/build
+COPY client.js /app
+
+CMD ["node", "client.js"]
