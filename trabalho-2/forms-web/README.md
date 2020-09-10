@@ -1,6 +1,6 @@
 # Forms Web
 
-Projeto desenvolvido em React durante os cursos de **React: Function Components, uma abordagem moderna** e **React: Hooks, Contextos e boas práticas** da Alura. 
+Projeto desenvolvido em React para matéria de C115. 
 
 ![forms](https://user-images.githubusercontent.com/57146734/92316007-7f80d700-efc4-11ea-87ab-d2f1353560c2.gif)
 
